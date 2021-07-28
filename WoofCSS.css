@@ -47,9 +47,6 @@ body {
   box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.8);
 }
 
-.header.small > .container > #logo {
-  height: 40px;
-}
 
 ul.nav {
   float: right;
@@ -235,7 +232,7 @@ h1.hero:after {
 .col .imgholder {
   height: 300px;
   width: 100%;
-  background: #333;
+  background: #555;
   transition: background 0.3s linear;
 }
 
@@ -299,6 +296,7 @@ h2 {
 .white a {
   color: #fff;
 }
+
 
 .group:after {
   content: "";
