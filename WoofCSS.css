@@ -13,19 +13,20 @@ body {
   width: 1170px;
   margin: 0 auto;
   color: #444;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
-  font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-family: 'Gaegu'; 
   overflow: hidden;
 }
 
 .section .container {
-  padding: 30px 0 50px 0;
+  padding: 40px 0 50px 0;
 }
 
 .section.bg {
   background: #f7f7f7;
 }
+
 
 .hold {
   height: 80px;
@@ -48,6 +49,17 @@ body {
 }
 
 
+#logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: tranparent;
+  float: left;
+  height: 40px;
+  width: 170px;
+  margin-left: 5px;
+}
+
 ul.nav {
   float: right;
   list-style: none;
@@ -62,11 +74,11 @@ ul.nav li {
 
 ul.nav li a {
   transition: color 0.2s linear;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 ul.nav li:hover a {
-  color: red;
+  color: #737abd;
 }
 
 ul.nav li a {
@@ -74,6 +86,8 @@ ul.nav li a {
   color: initial;
   text-decoration: initial;
 }
+
+
 
 .section .slider,
 .section .footer {
@@ -85,14 +99,14 @@ ul.nav li a {
 }
 
 .hero {
-  font-family: Lucida Bright,Georgia,serif; 
+  font-family: 'Gaegu'; 
   color: white;
   font-weight: normal;
   letter-spacing: 1px;
 }
 
 h1.hero {
-  font-size: 54px;
+  font-size: 60px;
 }
 
 h2.hero {
@@ -125,7 +139,7 @@ h1.hero:after {
 }
 
 .call span:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: #737abd;
   cursor: pointer;
 }
 
@@ -159,9 +173,9 @@ h1.hero:after {
 
 .col .service,
 .col .feature {
-  font-size: 21px;
+  font-size: 26px;
   font-weight: 300;
-  font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-family: 'Gaegu'; 
 }
 
 .col .service:after {
@@ -176,7 +190,7 @@ h1.hero:after {
 }
 
 .col .feature {
-  font-size: 19px;
+  font-size: 23px;
 }
 
 .col h1.side,
@@ -206,7 +220,7 @@ h1.hero:after {
 }
 
 .col:hover > .icon {
-  background: #F44336;
+  background: #737abd;
   color: white;
 }
 
@@ -252,6 +266,7 @@ h1.hero:after {
   font-size: 20px;
 }
 
+
 .container > h1:not(.hero) {
   margin-bottom: 30px;
   text-align: center;
@@ -269,10 +284,10 @@ h1.hero:after {
 }
 
 h2 {
-  font-family: Baskerville,Baskerville Old Face,Hoefler Text,Garamond,Times New Roman,serif; 
+  font-family: 'Gaegu'; 
   text-align: center;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .left,
@@ -289,6 +304,7 @@ h2 {
   display: none !important;
 }
 
+
 .white h1,
 .white h2,
 .white p,
@@ -296,7 +312,6 @@ h2 {
 .white a {
   color: #fff;
 }
-
 
 .group:after {
   content: "";
@@ -384,3 +399,4 @@ h2 {
     display: none;
   }
 }
+
