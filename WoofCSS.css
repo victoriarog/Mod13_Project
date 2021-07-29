@@ -27,7 +27,6 @@ body {
   background: #f7f7f7;
 }
 
-
 .hold {
   height: 80px;
 }
@@ -47,7 +46,6 @@ body {
   line-height: 50px;
   box-shadow: 0px 1px 3px 0px rgba(50, 50, 50, 0.8);
 }
-
 
 #logo {
   position: absolute;
@@ -86,8 +84,6 @@ ul.nav li a {
   color: initial;
   text-decoration: initial;
 }
-
-
 
 .section .slider,
 .section .footer {
@@ -266,7 +262,6 @@ h1.hero:after {
   font-size: 20px;
 }
 
-
 .container > h1:not(.hero) {
   margin-bottom: 30px;
   text-align: center;
@@ -303,7 +298,6 @@ h2 {
 .reset:after {
   display: none !important;
 }
-
 
 .white h1,
 .white h2,

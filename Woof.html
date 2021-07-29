@@ -8,14 +8,24 @@
 <div class="hold">
   <div class="header">
     <div class="container">
-      <div id="logo"><img src="https://image.flaticon.com/icons/png/512/720/720903.png" width="55" height="55" style="padding-bottom:50px">
+      <div id="logo"><img src="https://image.flaticon.com/icons/png/512/720/720903.png" width="55" height="55" style="padding-bottom:50px"> Woof Shelter
       </div>
       
       <ul class="nav">
-        <li><a href="#">Available Woofs</a></li>
-        <li><a href="#">Woof News</a></li>
-        <li><a href="#">Woof Support</a></li>
-        <li><a href="#">Woof Contacts</a></li>
+        <li><a href="#available-woofs">Available Woofs</a></li>
+        <li><a href="#woofs-news">Woof News</a></li>
+        <li><a href="#woof-support">Woof Support</a></li>
+        <!--<li><a href="#">Woof Contacts</a></li>-->
+          <div class="dropdown">
+    <button class="dropbtn">Woof Contacts 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">E-mail Us</a>
+      <a href="#">Call Us</a>
+      <a href="#">Follow Us</a>
+    </div>
+  </div> 
       </ul>
     </div>
   </div>
@@ -56,6 +66,7 @@
   </div>
 </div>
 <div class="section bg">
+  <section id="available-woofs">
   <div class="container">
     <h1>Woofs waiting for home</h1>
     <h2>Full of love and hope</h2>
@@ -91,11 +102,11 @@
       <div class="imgholder"><img src="https://i.pinimg.com/originals/c9/9a/c0/c99ac0007894d761868df6eacf9bd8fc.jpg" width="365" height="300"></div>
       <h1 class="feature">Crackhead Chihuahua</h1>
       <p>Say good-bye to your ankles</p>
-    </div>
+    </div></section>
     <div class="group"></div>
   </div>
 </div>
-<div class="section">
+<div class="section" id="woofs-news">
   <div class="container">
     <h1>Latest Woof News</h1>
     <h2>Woofing along</h2>
@@ -133,10 +144,10 @@
     <div class="group margin"></div>
   </div>
 </div>
-<div class="section bg">
+<div class="section bg" id="woof-support">
   <div class="container">
-    <h1>Woof</h1>
-    <h2>Woof Woof Woof Woof</h2>
+    <h1>Woof Support</h1>
+    <h2>Tips and Advice for future Woof friends</h2>
     <div class="col two bg margin extrapad">
       <h1 class="icon side"><img src="https://image.flaticon.com/icons/png/512/4072/4072310.png" width="35" height="35" style="padding-top:40px"></h1>
       <span class="feature side">Woof</span><span class="side"> - Woof Woof Woof</span>
@@ -156,7 +167,7 @@
     <div class="col two bg margin extrapad">
       <h1 class="icon side"><img src="https://image.flaticon.com/icons/png/512/4072/4072310.png" width="35" height="35" style="padding-top:40px"></h1>
       <span class="feature side">Woof</span><span class="side"> - Woof Woof</span>
-      <p class="side">Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof</p>
+      <p class="side">Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof </p>
     </div>
     <div class="group"></div>
   </div>
@@ -181,4 +192,54 @@
   </div>
 </div>-->
 
+<style>
 
+
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 22px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: #737abd;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #737abd;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 8px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
