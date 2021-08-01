@@ -1,27 +1,33 @@
 .carousel-wrap {
-  margin: 140px auto;
+  margin: 120px auto;
   padding: 0 5%;
-  width: 90%;
+  width: 70%;
   position: relative;
 }
 
-/* fix blank or flashing items on carousel */
-.owl-carousel .item {
+.owl-carousel .imageholder {
   position: relative;
-  z-index: 100; 
-  -webkit-backface-visibility: hidden; 
+  z-index: 90; 
+  -webkit-backface-visibility: hidden;
+  background: #999;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Gaegu'; 
+  overflow: hidden;
+  text-align: center;
+  font-color: #444;
 }
 
-/* end fix */
+
 .owl-nav > div {
   margin-top: -26px;
   position: absolute;
-  top: 50%;
+  top: 40%;
   color: #737abd;
 }
 
 .owl-nav i {
-  font-size: 64px;
+  font-size: 72px;
 }
 
 .owl-nav .owl-prev {
@@ -31,6 +37,8 @@
 .owl-nav .owl-next {
   right: -40px;
 }
+
+
 
 html,
 body {
@@ -46,7 +54,7 @@ body {
   position: relative;
   width: 1170px;
   margin: 0 auto;
-  color: #444;
+  color: #000;
   font-size: 18px;
   font-weight: 300;
   font-family: 'Gaegu'; 

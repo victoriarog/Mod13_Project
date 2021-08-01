@@ -1,3 +1,4 @@
+
 html,
 body {
   margin: 0;
@@ -87,7 +88,8 @@ ul.nav li a {
 
 .section .slider,
 .section .footer {
-  background: #333;
+  background: linear-gradient(to right,#3204fdba, transparent), url('https://images.wallpaperscraft.com/image/dog_muzzle_grass_dog_collar_85961_2560x1024.jpg');
+background-size: 1800px 500px;
 }
 
 .slidercontent {
