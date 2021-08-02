@@ -8,14 +8,14 @@
 .owl-carousel .imageholder {
   position: relative;
   z-index: 90; 
-  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   background: #999;
   font-size: 14px;
   font-weight: 300;
   font-family: 'Gaegu'; 
-  overflow: hidden;
+  overflow: visible;
   text-align: center;
-  font-color: #444;
+  color: #444;
 }
 
 
@@ -388,7 +388,6 @@ h2 {
     margin: 0 auto;
   }
   ul.nav li {
-    float: initial;
     display: inline-block;
   }
   .responsivegroup {
